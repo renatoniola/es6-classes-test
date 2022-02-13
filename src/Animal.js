@@ -4,4 +4,7 @@ export default class Animal {
     typeof gender === "string" ? (this.gender = gender) : (this.gender = null);
     typeof name === "string" ? (this.name = name) : (this.name = null);
   }
+  static run() {
+    console.log("running");
+  }
 }
